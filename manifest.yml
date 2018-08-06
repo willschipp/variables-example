@@ -1,0 +1,7 @@
+---
+applications:
+- name: env-sample-app
+  memory: 675M
+  instances: 1
+  env:
+    endpoint.value: hello from pcf
